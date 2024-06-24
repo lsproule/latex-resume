@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  23 JUN 2024 23:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  24 JUN 2024 00:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -543,17 +543,17 @@ Package rerunfilecheck Info: Checksums for `main.out':
 Here is how much of TeX's memory you used:
  11823 strings out of 474116
  190063 string characters out of 5743683
- 1952187 words of memory out of 5000000
+ 1950187 words of memory out of 5000000
  34022 multiletter control sequences out of 15000+600000
  573610 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,328b,661s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,328b,484s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on ./build/main.pdf (2 pages, 85502 bytes).
+Output written on ./build/main.pdf (2 pages, 85557 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
