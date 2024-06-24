@@ -1,3 +1,155 @@
-\documentclass{article}
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[sfdefault]{roboto}  % Sans-serif font
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
 \begin{document}
+
+\begin{center}
+  \textbf{\Huge Lucas Sproule} \\
+  \small 570-453-7711 $|$ \href{mailto:lucas.sproule.42@gmail.com}{lucas.sproule.42@gmail.com} $|$ 
+  \href{https://linkedin.com/in/lucas-sproule}{linkedin.com/in/lucas-sproule} $|$
+  \href{https://github.com/lsproule}{github.com/lsproule}
+\end{center}
+
+\section*{Summary}
+Passionate DevOps engineer with a strong background in CI/CD, Terraform, Kubernetes and Cloud Computing. Skilled in Python, JavaScript, Ruby, and Bash Scripting. Excellent problem-solving, design, and collaboration abilities. Seeking a challenging role to develop cutting-edge Cloud Infrastructure.
+
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Programming Languages}: Python, JavaScript, SQL, Ruby, Bash, Golang, C++}
+  \resumeItem{\textbf{Cloud Vendors}: AWS, GCP, Azure, IBM Cloud, DigitalOcean}
+  \resumeItem{\textbf{Tools}: Docker, Kubernetes, Terraform, Ansible, Jenkins, Git/Github Actions, Jira, Grafana, Prometheus, ELK Stack}
+\resumeSubHeadingListEnd
+
+
+
+\section{Experience}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Site Reliability Engineer}{Feb 2022 -- Jan 2024}
+      {Deloitte}{Remote}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Managed and maintained cloud infrastructure for various clients with Terraform}
+          \resumeItem{\textbullet\ Developed CI/CD pipelines in Jenkins to automate deployments to our CI/CD pipelines}
+          \resumeItem{\textbullet\ Added a DataDog layer to our AWS Lambda functions to capture data on usage and failure rates.}
+          \resumeItem{\textbullet\ Implemented Istio service mesh to monitor and secure microservices}
+
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Site Reliability Engineer}{Jan 2021 -- Jan 2022}
+      {Blue Apron}{Remote}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Helped manage our Juniper network infrastructure with a Golang service to autoconfigure the ports}
+          \resumeItem{\textbullet\ Helped create On Premise Kubernetes clusters to move our Development Environment and save money}
+          \resumeItem{\textbullet\ Helped create new CI/CD pipeline to deploy our applications on the on premise clusters}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Cpp Package Manager}{Nov 2023 -- Present}
+      {C++ Project}{C++, Lua, CMake}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Developed a package manager for C++ projects to manage dependencies}
+          \resumeItem{\textbullet\ Implemented a Lua-based configuration system for easy project setup}
+          \resumeItem{\textbullet\ Created a CMake-based build system for compiling and linking the project}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Lsp Plugin}{Aug 2022 -- Dec 2022} 
+      {Neovim}{Lua}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Developed a plugin for Neovim to provide language server protocol support}
+          \resumeItem{\textbullet\ Createed a simple interface for users to configure the servers in a simple way}
+          \resumeItem{\textbullet\ Implemented a Lua-based configuration system for easy project setup}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Western Govenor's University}{Salt Lake City, UT}
+      {B.S. in Cloud Computing}{Dec 2020 -- Sep 2024}
+  \resumeSubheading
+      {University of California, Berkeley}{Berkeley, CA}
+      {B.S. in Electrical Engineering and Computer Science}{Aug 2015 -- May 2019}
+  \resumeSubheading
+      {University of California, Berkeley}{Berkeley, CA}
+      {B.S. in Electrical Engineering and Computer Science}{Aug 2015 -- May 2019}
+
+\resumeSubHeadingListEnd
+
+\section{Certifications}
+\resumeSubHeadingList
+  \resumeItem{
+  \begin{multicols}{2}
+  \begin{itemize}[leftmargin=*]
+    \item AWS Certified Solutions Architect
+    \item AWS Certified Cloud Practitioner
+    \item CompTIA Cloud+
+    \item CompTIA Network+
+    \item CompTIA Project+
+  \end{itemize}
+  \columnbreak
+  \begin{itemize}[leftmargin=*]
+    \item AWS Certified SysOps Administrator
+    \item AWS Certified Developer
+    \item CompTIA Security+
+    \item CompTIA A+
+  \end{itemize}
+  \end{multicols}}
+\resumeSubHeadingListEnd
+
 \end{document}
