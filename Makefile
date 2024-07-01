@@ -1,13 +1,20 @@
-OUTPUT_DIR=build
-SOURCES=$(wildcard *.tex)
-pdf: 
-	pdflatex --output-directory=./$(OUTPUT_DIR) $(SOURCES)
+FILENAME=main.tex
+OUTPUT_DIRECTORY=build
 
-clean:
-	rm -f $(OUTPUT_DIR)/*.aux $(OUTPUT_DIR)/*.log $(OUTPUT_DIR)/*.out $(OUTPUT_DIR)/*.pdf
+
+setup:
+	mkdir -p $(OUTPUT_DIRECTORY)
 
 show:
-	 open $(OUTPUT_DIR)/*.pdf
-.PHONY: all clean pdf
+	xpdf -rv -remote file $(OUTPUT_DIRECTORY)/main.pdf &
+build:
+	pdflatex -output-directory=$(OUTPUT_DIRECTORY) $(FILENAME)	
 
-all: clean pdf show
+watch:
+	while true;do inotifywait -e modify $(FILENAME);make all;xpdf -remote file -reload;done
+
+
+.PHONY: all setup build watch
+
+all: setup build
+
