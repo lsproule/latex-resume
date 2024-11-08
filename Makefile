@@ -3,6 +3,7 @@ OUTPUT_DIRECTORY=build
 
 build:
 	pdflatex -output-directory=$(OUTPUT_DIRECTORY) $(FILENAME)	
+	pdflatex -output-directory=$(OUTPUT_DIRECTORY) -jobname=lucas $(FILENAME)	
 
 
 
