@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  7 NOV 2024 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  7 NOV 2024 20:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,7 +405,7 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box101
 )
-No file lucas.aux.
+(build/lucas.aux)
 \openout1 = `lucas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -426,6 +426,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
+
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count291
@@ -441,6 +442,7 @@ LaTeX Font Info:    ... okay on input line 57.
 \everyMPtoPDFconversion=\toks28
 )
 Package hyperref Info: Link coloring OFF on input line 57.
+ (build/lucas.out) (build/lucas.out)
 \@outlinefile=\write3
 \openout3 = `lucas.out'.
 
@@ -466,42 +468,43 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 61.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 61
 .
- (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 66.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 67.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 66.
+(Font)              scaled to size 14.4pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 66.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 67.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 66.
+(Font)              scaled to size 14.4pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/sc' aliased to
-(Font)              `OT1/Roboto-LF/bold/sc' on input line 66.
+(Font)              `OT1/Roboto-LF/bold/sc' on input line 67.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/sc' will be
-(Font)              scaled to size 14.4pt on input line 66.
+(Font)              scaled to size 14.4pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/b/n' aliased to
-(Font)              `OT1/Roboto-LF/bold/n' on input line 71.
+(Font)              `OT1/Roboto-LF/bold/n' on input line 72.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 9.0pt on input line 71.
+(Font)              scaled to size 9.0pt on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 80.
+(Font)              <7> on input line 81.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/it' aliased to
-(Font)              `OT1/Roboto-LF/regular/it' on input line 80.
+(Font)              `OT1/Roboto-LF/regular/it' on input line 81.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 81.
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 82.
+line 83.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
-(Font)              `TS1/Roboto-LF/regular/n' on input line 82.
+(Font)              `TS1/Roboto-LF/regular/n' on input line 83.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 82.
+(Font)              scaled to size 9.0pt on input line 83.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -516,9 +519,9 @@ exlive/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_5xgh2b.enc}{/usr/local/texli
 ve/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}{/usr/local/texlive/2
 024/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}]
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 164.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 165.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 164.
+(Font)              scaled to size 5.0pt on input line 165.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -530,21 +533,14 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `lucas.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `lucas.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  968C2BD2340D19FC1F14D47F5D281119;503.
+Package rerunfilecheck Info: File `lucas.out' has not changed.
+(rerunfilecheck)             Checksum: 968C2BD2340D19FC1F14D47F5D281119;503.
  ) 
 Here is how much of TeX's memory you used:
- 11822 strings out of 474116
- 190004 string characters out of 5743683
+ 11836 strings out of 474116
+ 190195 string characters out of 5743683
  1952187 words of memory out of 5000000
- 34020 multiletter control sequences out of 15000+600000
+ 34028 multiletter control sequences out of 15000+600000
  573610 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,328b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -553,10 +549,11 @@ Here is how much of TeX's memory you used:
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on build/lucas.pdf (2 pages, 88399 bytes).
+
+Output written on build/lucas.pdf (2 pages, 88777 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
