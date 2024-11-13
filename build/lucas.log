@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  7 NOV 2024 20:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.4)  13 NOV 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,9 +519,9 @@ exlive/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_5xgh2b.enc}{/usr/local/texli
 ve/2024/texmf-dist/fonts/enc/dvips/roboto/rbto_h6xohf.enc}{/usr/local/texlive/2
 024/texmf-dist/fonts/enc/dvips/roboto/rbto_ocbbsb.enc}]
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/m/n' aliased to
-(Font)              `OT1/Roboto-LF/regular/n' on input line 165.
+(Font)              `OT1/Roboto-LF/regular/n' on input line 168.
 LaTeX Font Info:    Font shape `OT1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 165.
+(Font)              scaled to size 5.0pt on input line 168.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -539,18 +539,18 @@ Package rerunfilecheck Info: File `lucas.out' has not changed.
 Here is how much of TeX's memory you used:
  11836 strings out of 474116
  190195 string characters out of 5743683
- 1952187 words of memory out of 5000000
+ 1951187 words of memory out of 5000000
  34028 multiletter control sequences out of 15000+600000
  573610 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,328b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,328b,746s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 
-Output written on build/lucas.pdf (2 pages, 88777 bytes).
+Output written on build/lucas.pdf (2 pages, 88951 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
