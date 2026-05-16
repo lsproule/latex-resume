@@ -9,7 +9,6 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{multicol}
-\usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -65,81 +64,88 @@
 \end{center}
 
 \section*{Summary}
-Passionate DevOps engineer with a strong background in CI/CD, Terraform, Kubernetes and Cloud Computing. Skilled in Python, JavaScript, Ruby, and Bash Scripting. Excellent problem-solving, design, and collaboration abilities. Seeking a challenging role to develop cutting-edge Cloud Infrastructure.
+Senior engineer with six years of experience spanning full-stack application development and cloud infrastructure. Proven track record building production systems end-to-end in Ruby on Rails, React, Python, and Go, and operating them on Kubernetes, Nomad, and major public clouds. Strong background in CI/CD, infrastructure as code, observability, and platform reliability.
 
 \section{Technical Skills}
 \resumeSubHeadingList
-  \resumeItem{\textbf{Programming Languages}: Python, JavaScript, SQL, Ruby, Bash, Golang, C++}
-  \resumeItem{\textbf{Cloud Vendors}: AWS, GCP, Azure, IBM Cloud, DigitalOcean}
-  \resumeItem{\textbf{Tools}: Docker, Kubernetes, Terraform, Vault,  Ansible, Jenkins, Git/Github Actions, Jira, Grafana, Prometheus, ELK Stack, Istio, Jaeger, Kafka, Helm, Kubernetes Operators}
-  \resumeItem{\textbf{Library/Frameworks}: Django, Flask, Express, Ruby on Rails, React, Solidjs, Scikit-learn, TensorFlow/TensorFlow Serving, PyTorch, OpenCV, Keras, Pandas, Numpy, Matplotlib, Spark}
+  \resumeItem{\textbf{Languages}: Ruby, Python, JavaScript/TypeScript, Go, C++, SQL, Bash, Lua}
+  \resumeItem{\textbf{Cloud \& Infrastructure}: AWS, GCP, Azure, DigitalOcean, IBM Cloud; Kubernetes, Nomad, Docker, Terraform, Ansible, Helm, Consul, Vault}
+  \resumeItem{\textbf{Observability \& CI/CD}: Datadog, Grafana, Prometheus, ELK, Jaeger, Istio; Jenkins, GitHub Actions, GitLab CI}
+  \resumeItem{\textbf{Frameworks \& Libraries}: Ruby on Rails, React, SolidJS, Django, Flask, Express, Kafka; PyTorch, TensorFlow, scikit-learn, OpenCV, Pandas, NumPy, Spark}
+  \resumeItem{\textbf{Networking}: MikroTik (RouterOS), VLANs, firewall and routing policy, Juniper}
 \resumeSubHeadingListEnd
 \section{Experience}
 \resumeSubHeadingList
   \resumeSubheading
+      {Senior Software Engineer}{Jan 2024 -- Present}
+      {Vokol}{Remote}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Designed and shipped a multi-tenant, HIPAA-compliant efax platform end-to-end in Ruby on Rails with a React frontend}
+          \resumeItem{\textbullet\ Delivered real-time fax status updates via ActionCable and asynchronous OCR and extraction workloads through Active Job backed by SolidQueue}
+          \resumeItem{\textbullet\ Architected an AI document-understanding pipeline pairing a self-hosted OCR model with multiple LLM providers, including provider routing, fallback, and schema-validated structured outputs}
+          \resumeItem{\textbullet\ Built and operated a self-hosted Nomad cluster as the production runtime, with Consul for service discovery and Vault for secrets management}
+          \resumeItem{\textbullet\ Established GitHub Actions CI/CD pipelines for application and infrastructure deployments into Nomad}
+          \resumeItem{\textbullet\ Designed and implemented the network layer on MikroTik, including VLAN segmentation, routing, and firewall policy to isolate production workloads}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
       {Site Reliability Engineer}{Feb 2022 -- Jan 2024}
       {Deloitte}{Remote}
       \resumeSubHeadingList
-          \resumeItem{\textbullet\ Managed and maintained cloud infrastructure for various clients with Terraform}
-          \resumeItem{\textbullet\ Mitigated DB issue restoring from backups. Helped create multi-az RDS for product service}
-          \resumeItem{\textbullet\ Developed CI/CD pipelines in Jenkins to automate deployments to our CI/CD pipelines}
-          \resumeItem{\textbullet\ Maintained our Linux AMIs for our EC2 instances}
-          \resumeItem{\textbullet\ Added a DataDog layer to our AWS Lambda functions to capture data on usage and failure rates.}
-          \resumeItem{\textbullet\ Created a Service Map visualization in APM for performance metrics and dependencies}
-          \resumeItem{\textbullet\ Integrated multiple identity providers into a React-based frontend, ensuring secure and efficient single sign-on (SSO) for enterprise users.}
-          \resumeItem{\textbullet\ Streamlined user onboarding and authentication processes by coordinating SAML metadata configurations, enabling interoperability with federated identity systems while reducing login friction for our new ecommerce product.}
-          \resumeItem{\textbullet\ Automated set up the Datadog service definitions for Datadog Service Catalog in Terraform with Datadog module}
-          \resumeItem{\textbullet\ Implemented Istio service mesh to monitor and secure microservices}
-          \resumeItem{\textbullet\ Scraped service mesh to get metrics such as active connections and other data out of prometheus and custom metrics}
-          \resumeItem{\textbullet\ Created terraform alarms for DataDog for monitoring our SLAs}
-          \resumeItem{\textbullet\ Wrote scripts to automate database backups and restores.}
-          \resumeItem{\textbullet\ Created a new database for BI developers, so they could do analytics without affecting production database}
-          \resumeItem{\textbullet\ Anonymized the data and removed protected fields.}
-          \resumeItem{\textbullet\ Created a terraform module to deploy EKS cluster on AWS or our AKS cluster on Azure.}
-          \resumeItem{\textbullet\ Integrated module with our networking and Database modules.}
+          \resumeItem{\textbullet\ Managed multi-cloud infrastructure across client engagements using Terraform, including a reusable module that provisioned EKS on AWS or AKS on Azure and integrated with shared networking and database modules}
+          \resumeItem{\textbullet\ Built Jenkins CI/CD pipelines and maintained hardened Linux AMIs for EC2 fleets, standardizing deployment across environments}
+          \resumeItem{\textbullet\ Deployed Istio service mesh to secure microservice traffic, and exported mesh and Prometheus metrics to power custom SLO dashboards}
+          \resumeItem{\textbullet\ Instrumented AWS Lambda functions with a Datadog layer, built APM service maps, and codified Datadog service definitions and SLA alarms in Terraform}
+          \resumeItem{\textbullet\ Integrated multiple identity providers into a React frontend, delivering enterprise SSO via SAML federation for a new ecommerce product}
+          \resumeItem{\textbullet\ Led incident response on a production database failure, restoring from backups and architecting a multi-AZ RDS topology to prevent recurrence}
+          \resumeItem{\textbullet\ Stood up an analytics database for BI, automating anonymization of protected fields so reporting workloads no longer impacted production}
+          \resumeItem{\textbullet\ Authored automation for database backup and restore procedures, reducing manual operational toil}
       \resumeSubHeadingListEnd
   \resumeSubheading
-      {Devops Engineer}{Jan 2021 -- Jan 2022}
+      {DevOps Engineer}{Jan 2021 -- Jan 2022}
       {Blue Apron}{Remote}
       \resumeSubHeadingList
-          \resumeItem{\textbullet\ Manage our Juniper network infrastructure with a Golang service to autoconfigure the ports}
-          \resumeItem{\textbullet\ Created On Premise Kubernetes clusters to move our Development Environment and save money}
-          \resumeItem{\textbullet\ Created new CI/CD pipeline to deploy our applications on the on premise clusters}
-          \resumeItem{\textbullet\ Helped write a golang service for Juniper Device management}
-          \resumeItem{\textbullet\ Migrated cloud development environment and helped setup skaffold for a better developer experience}
-          \resumeItem{\textbullet\ Participated in oncall disaster recovery.}
-          \resumeItem{\textbullet\ Helped create a disaster recovery plan.}
-          \resumeItem{\textbullet\ Helped created a chaos engineering plan, and tested the resiliency of our services}
+          \resumeItem{\textbullet\ Migrated development environments from cloud to on-premise Kubernetes clusters, reducing infrastructure spend while improving iteration speed with Skaffold-based workflows}
+          \resumeItem{\textbullet\ Built new CI/CD pipelines targeting the on-prem clusters and contributed to a Go service that automated port configuration on Juniper network hardware}
+          \resumeItem{\textbullet\ Co-authored the disaster recovery and chaos engineering plans, validating service resiliency through scheduled fault-injection exercises}
+          \resumeItem{\textbullet\ Participated in on-call rotation, leading recovery efforts during production incidents}
       \resumeSubHeadingListEnd
       \resumeSubheading
-      {Devops Engineer}{May 2020 -- Jan 2021}
+      {DevOps Engineer}{May 2020 -- Jan 2021}
       {Active International}{Remote}
       \resumeSubHeadingList
-          \resumeItem{\textbullet\ Maintained all Kubernetes environments and infrastructure provisioning}
-          \resumeItem{\textbullet\ Created reports for cost management and cost predictions}
-          \resumeItem{\textbullet\ Optimized the mongodb queries (parallelized and custom indices) to speed up data fetching by 10x}
-          \resumeItem{\textbullet\ Migrated all legacy on prem sftp servers to azure and stored files in blob storage}
-          \resumeItem{\textbullet\ Created CI/CD pipelines for python web applications}
+          \resumeItem{\textbullet\ Owned all Kubernetes environments and the infrastructure provisioning that supported them}
+          \resumeItem{\textbullet\ Optimized MongoDB queries through parallelization and custom indexing, improving data-fetch performance by 10x}
+          \resumeItem{\textbullet\ Migrated legacy on-prem SFTP servers to Azure Blob Storage, retiring aging hardware}
+          \resumeItem{\textbullet\ Built CI/CD pipelines for Python web applications and produced cost-management and forecasting reports for leadership}
       \resumeSubHeadingListEnd
 \resumeSubHeadingListEnd
 
 \section{Projects}
 \resumeSubHeadingList
   \resumeSubheading
-      {Cpp Package Manager}{Nov 2023 -- Present}
-      {C++ Project}{C++, Lua, CMake}
+      {Claude Code Fleet Manager}{2025 -- Present}
+      {SaaS Platform}{Go, Rust, PostgreSQL, WebSockets}
       \resumeSubHeadingList
-          \resumeItem{\textbullet\ Developed a package manager for C++ projects to manage dependencies}
-          \resumeItem{\textbullet\ Implemented a Lua-based configuration system for easy project setup}
-          \resumeItem{\textbullet\ Created a CMake-based build system for compiling and linking the project}
+          \resumeItem{\textbullet\ Designing a multi-tenant SaaS for orchestrating fleets of Claude Code agents across remote hosts, with a Go control plane and a per-host Rust daemon}
+          \resumeItem{\textbullet\ Built a pull-based task queue over PostgreSQL (\texttt{SELECT FOR UPDATE SKIP LOCKED}) with WebSocket push, lease heartbeats, and automatic re-issue on host failure}
+          \resumeItem{\textbullet\ Implemented declarative state reconciliation: the daemon converges \texttt{\~{}/.claude} on each host to a server-pushed manifest (settings, MCP servers, skills, hooks, credentials), reporting drift back to the control plane}
+          \resumeItem{\textbullet\ Implemented OIDC device-code authentication with refresh-token rotation, OS-keyring storage, and an opt-in WireGuard mesh for secure cross-host control without exposed ports}
+          \resumeItem{\textbullet\ Added a multi-tenant AAA mode that provisions per-operator home directories and injects session-scoped PATs into spawned Claude processes}
+          \resumeItem{\textbullet\ Shipped Debian, RPM, and Alpine packages with systemd and OpenRC units, plus Prometheus metrics and an OpenAPI spec generated from the Rust types}
       \resumeSubHeadingListEnd
   \resumeSubheading
-      {Lsp Plugin}{Aug 2022 -- Dec 2022} 
-      {Neovim}{Lua}
+      {C++ Package Manager}{Nov 2023 -- Present}
+      {Open Source}{C++, Lua, CMake}
       \resumeSubHeadingList
-          \resumeItem{\textbullet\ Developed a plugin for Neovim to provide language server protocol support}
-          \resumeItem{\textbullet\ Createed a simple interface for users to configure the servers in a simple way}
-          \resumeItem{\textbullet\ Implemented a Lua-based configuration system for easy project setup}
+          \resumeItem{\textbullet\ Developed a dependency manager for C++ projects with a Lua-based configuration model}
+          \resumeItem{\textbullet\ Implemented a CMake-driven build pipeline for compiling, linking, and packaging projects}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Neovim LSP Plugin}{Aug 2022 -- Dec 2022}
+      {Open Source}{Lua}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Built a Neovim plugin providing Language Server Protocol integration with a streamlined configuration interface}
+          \resumeItem{\textbullet\ Designed a Lua-based configuration system to simplify per-project server setup}
       \resumeSubHeadingListEnd
 \resumeSubHeadingListEnd
 
